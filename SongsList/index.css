@@ -1,0 +1,52 @@
+.music-list-items {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 6px;
+}
+.auto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.track {
+  width: 180px;
+}
+.name {
+  font-size: 26px;
+  color: #3b82f6;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.genre {
+  font-size: 22px;
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-top: 7px;
+}
+.a-x {
+  margin-left: 20px;
+}
+.a-z {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 45px;
+}
+.duration {
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-right: 60px;
+}
+.button {
+  background: transparent;
+  border: none;
+}
+.icon {
+  color: #fff;
+  font-size: 20px;
+}
